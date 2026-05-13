@@ -7,6 +7,7 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz", { desc = "Half page up (centered)" })
 -- Buffer navigation
 vim.keymap.set("n", "<leader>bn", "<Cmd>bnext<CR>", { desc = "Next buffer" })
 vim.keymap.set("n", "<leader>bp", "<Cmd>bprevious<CR>", { desc = "Previous buffer" })
+vim.keymap.set("n", "<leader>bd", "<Cmd>bd<CR>", { desc = "Destroy buffer" })
 vim.keymap.set("n", "<leader>#", "<Cmd>b#<CR>", { desc = "Last active buffer" })
 
 -- Better window navigation
@@ -37,3 +38,6 @@ vim.keymap.set("n", "<leader>rc", "<Cmd>e ~/.config/nvim/init.lua<CR>", { desc =
 
 -- Better deleting
 vim.keymap.set({"n", "v"}, "<leader>x", '"_d', { desc = "Delete without yanking" })
+
+-- Search
+vim.keymap.set("n", "<leader>c", ":nohlsearch<CR>", { desc = "Clear search highlights" })
