@@ -1,0 +1,4 @@
+{
+  "ayu-vim": { "branch": "master", "commit": "01faacb4cb76e8cf72ad9858c581d80876260ab3" },
+  "lazy.nvim": { "branch": "main", "commit": "85c7ff3711b730b4030d03144f6db6375044ae82" }
+}
